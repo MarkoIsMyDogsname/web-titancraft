@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+}    
+body{
+    background-image: url(../webtc/background.gif);
+    color:#c9e6e7;
+    scroll-behavior: smooth;
+    font-family: 'Bebas Neue';
+}
+
+.navkezdo{
+    margin-bottom: 2px;
+    margin-right: 10px;
+    color:#c9e6e7;    
+}
+
+
+.navdiscord{
+    margin-bottom: 2px;
+    margin-right: 10px;
+    color:#c9e6e7;}
+
+.navshop{
+    margin-bottom: 4px;
+    margin-right: 10px;
+    color:#c9e6e7;}
+
+.navtgf{
+    margin-bottom: 1px;
+    margin-right: 10px;
+    color:#c9e6e7;}
+
+#text{
+    color:#c9e6e7;}
+
+.menu nav{
+    background-color:#5f9ea0;
+    color:#c9e6e7;}
+
+.tgf{
+    margin: 20% 5% 10% 5%;
+}
+
+.bigfont{
+    margin: 5% 5% 0% 5%;
+    text-align: center;
+    color:#c9e6e7;
+    font-style: bold;
+    font-size: 150px;
+    font-family: 'Bebas Neue';
+    border-bottom: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+}
+
+.bigfont2{
+    margin: 5% 5% 0% 5%;
+    text-align: center;
+    color:#c9e6e7;
+    font-style: bold;
+    font-size: 150px;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+}
+
+.smallfont{
+    margin: -3% 2% 2% 2%;
+    color:#c9e6e7;
+    text-align: center;
+    font-size: 25px;
+}
+ 
+.tgfbig{
+    color: rgb(206, 204, 204);
+    font-size: 150px;
+    font-family: 'Bebas Neue', cursive;
+    float: left;
+    border-right: 3px;
+    border-left: 0px;    
+    border-bottom: 0px;
+    border-top: 0px;      
+    border-style: solid;
+    padding-right: 25px;
+}
+
+.tgfsmall{
+    color: rgb(206, 204, 204);
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.tgfsmall2{
+    color: rgb(206, 204, 204);
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+
+#tgflink:visited{
+    background-color: rgba(150, 247, 147, 0.808);
+    color:rgba(72, 77, 72, 0.808);
+    height: 120px;
+    width: 250px;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+#join{
+    background-color: rgba(150, 247, 147, 0.808);
+    color:rgba(72, 77, 72, 0.808);
+    height: 120px;
+    width: 250px;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+#join:hover{
+    animation: join 0.25s;
+    animation-fill-mode:both;
+}
+
+@keyframes join{
+    0% {    background-color: rgba(150, 247, 147, 0.808);}
+    100% {background-color: rgba(235, 223, 59, 0.808);}
+}
+
+@keyframes navbar{
+    0% {margin-top: 0px;}
+    100% {margin-top: 5%; color:rgba(20, 54, 19, 0.808);}
+
+}
+
+
+.navtgf:hover{
+    animation: navbar;
+    animation-duration: 0.25s;
+    animation-fill-mode:both;
+}
+.navkezdo:hover{
+    animation: navbar;
+    animation-duration: 0.25s;
+    animation-fill-mode:both;
+}
+.navdiscord:hover{
+    animation: navbar;
+    animation-duration: 0.25s;
+    animation-fill-mode:both;
+}
+.navshop:hover{
+    animation: navbar;
+    animation-duration: 0.25s;
+    animation-fill-mode:both;
+}
+
+.dcbig{
+    color: rgb(206, 204, 204);
+    font-size: 150px;
+    font-family: 'Bebas Neue', cursive;
+    float: right;
+    border-right: 0px;
+    border-left: 3px;    
+    border-bottom: 0px;
+    border-top: 0px;      
+    border-style: solid;
+    padding-left: 25px;
+}
+
+.dcsmall{
+    color: rgb(206, 204, 204);
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 30%;
+    position: absolute;
+}
+
+.dc{
+    margin: 20% 5% 10% 5%;
+    position: relative;
+}
+
+#link:visited{
+    color: rgb(206, 204, 204);
+    text-decoration: none;
+}
+
+.dcicon{
+    background-color: rgba(56, 146, 53, 0.808);
+}
+
+.shop{
+    
+    margin: 20% 5% 10% 5%;
+}
+
+.shopsmall{
+    color: rgb(206, 204, 204);
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    float: left;
+    text-align: center;
+}
+
+.shopbig{
+    color: rgb(206, 204, 204);
+    font-size: 150px;
+    font-family: 'Bebas Neue', cursive;
+    float: left;
+    border-right: 3px;
+    border-left: 0px;    
+    border-bottom: 0px;
+    border-top: 0px;      
+    border-style: solid;
+    padding-right: 25px;
+}
+
+
+
+
+
+
+label{
+    color: rgb(206, 204, 204);
+    margin-bottom: 10px;
+    margin-left: 30%;
+    text-align: center;
+    padding: auto;
+}
+
+#send{
+    float: left;
+    margin-top: -9%;
+    margin-left: 50%;
+    height: 150px;
+    width: 300px;
+    font-size: 40px;
+    border-radius: 22px;
+    color:rgba(72, 77, 72, 0.808);
+    background-color: rgba(150, 247, 147, 0.808);
+}
+#send:hover{
+    animation: join 0.25s;
+    animation-fill-mode:both;
+}
+
+#backtoindex{
+    margin-top: 5%;
+    height: 150px;
+    width: 300px;
+    font-size: 40px;
+    border-radius: 22px;
+    color:rgba(72, 77, 72, 0.808);
+    background-color: rgba(150, 247, 147, 0.808);
+}
